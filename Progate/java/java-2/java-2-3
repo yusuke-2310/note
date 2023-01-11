@@ -1,0 +1,52 @@
+  // 繰り返し処理　while文
+class Main {
+  public static void main(String[] args) {
+    int number = 10;
+
+    // while文を用いて、numberが0より大きい場合に繰り返す、繰り返し処理を作ってください
+    while (number > 0) {
+    System.out.println(number);
+    number --;
+   }
+  }
+}
+
+
+  // for文　同じ栗菓子処理だが、こっちのほうがきれいに見える。が両方書けたことに越したことはない
+class Main {
+  public static void main(String[] args) {
+    // for文を用いて、繰り返し処理をつくってください
+    for (int i = 1; i <= 10; i++) {
+      System.out.println(i + "回目のループです");
+    }
+  }
+}
+
+
+  // while文の中にブレイクを入れ途中で強制終了
+class Main {
+  public static void main(String[] args) {
+    System.out.println("=== while文 ===");
+    int i = 1;
+    while (i < 10) {
+      // iが5の倍数のとき、繰り返し処理を終了してください
+      if (i % 5 == 0) {
+        break;
+      }
+      
+      System.out.println(i);
+      i++;
+    }
+  
+  //  for文の中にcontinueを追加し条件に合っている部分を飛ばすように設定
+    System.out.println("=== for文 ===");
+    for (int j = 1; j < 10; j++) {
+      // jが3の倍数のとき、処理をスキップしてください
+      if (j % 3 == 0){
+        continue;
+      }
+      
+      System.out.println(j);
+    }
+  }
+}
