@@ -1,0 +1,4 @@
+String    //文字列
+int       //数値（整数）
+double    //数値（小数点以下有)
+boolean   //真偽値
