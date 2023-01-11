@@ -1,0 +1,92 @@
+class Main {
+  public static void main(String[] args) {
+    // int型の変数numberを定義してください
+    int number;
+    
+    // 変数numberに3を代入してください
+    number = 3;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+
+    // String型の変数nameを定義してください
+    String name;
+    
+    // 変数nameに"Wanko"を代入してください
+    name = "Wanko";
+    
+    // 変数nameを出力してください
+    System.out.println(name);
+    
+    // 変数numberの値に1を足して、変数numberを上書きしてください
+    number ++;
+    
+    // 変数nuberの値に7を足して、変数numberを上書きしてください
+    number += 7;
+  }
+}
+↓
+↓　簡略化した"変数の初期化"
+↓
+lass Main {
+  public static void main(String[] args) {
+    int number1 = 3;
+    
+    // int型の変数number2を定義し、7を代入してください
+    int number2 = 7;
+    
+    // number1 * number2を出力してください
+    System.out.println(number1 * number2);
+    
+    // 変数textに「プログラミングを勉強しよう」を代入してください
+    String text = "プログラミングを勉強しよう";
+    
+    // 「Progateで」と変数textを連結して出力してください
+    System.out.println("Progateで" + text);
+    
+  }
+}
+
+
+  //自己代入
+class Main {
+  public static void main(String[] args) {
+    int number = 3;
+    System.out.println(number);
+    
+    // 変数numberの値に7を足して、変数numberを上書きしてください
+    number = number + 7;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+      
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    // 変数nameに、好きな名前を代入してください
+    String name = "田中";
+    
+    // 変数ageに、好きな年齢を代入してください
+    int age = 20;
+    
+    // 変数heightに、好きな身長を代入してください（例: 1.2）
+    double height =  1.7;
+    
+    // 変数weightに、好きな体重を代入してください（例: 20.0）
+    double weight = 60.0;
+    
+    // 変数bmiに、BMIを計算して代入してください
+    double bmi = 20.76;
+    
+    // 名前、年齢、身長、体重、BMIに関する情報を出力してください
+    System.out.println("名前は" + name + "です");
+    System.out.println("年齢は" + age + "歳です");
+    System.out.println("身長は" + height + "mです");
+    System.out.println("体重は" + weight + "kgです");
+    System.out.println("BMIは" + bmi + "です");
+  }
+}
