@@ -12,7 +12,7 @@
 
 
   // 
-class Main {
+  class Main {
 ① public static void main(String[] args) {
     // printDataメソッドを呼び出してください
   ② printData();
@@ -23,8 +23,28 @@ class Main {
   ③ System.out.println("私の名前はKate Jonesです");
   }
 }
-①mainメソッドが呼ばれる
-②mainメソッドの中で、printDataメソッドが呼ばれる
-③helloメソッドの中で、
- System.out.println("私の名前はKate Jonesです")
- が実行される
+  ①mainメソッドが呼ばれる
+  ②mainメソッドの中で、printDataメソッドが呼ばれる
+  ③helloメソッドの中で、
+   System.out.println("私の名前はKate Jonesです")
+   が実行される
+ 
+ 
+  // 引数を使った出力 
+  class Main {
+  public static void main(String[] args) {
+    // 引数に「Kate Jones」を渡してください
+    printData("Kate Jones");
+    
+    // 引数に「John Christopher Smith」を渡してください
+    printData("John Christopher Smith");
+    
+  }
+
+  // 引数を受け取るようにしてください
+  public static void printData(String name) {
+    // 「私の名前は◯◯です」と出力されるように書き換えてください
+    System.out.println("私の名前は" + name + "です");
+    
+  }
+}
