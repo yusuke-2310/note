@@ -11,4 +11,20 @@
 }
 
 
-
+  // 
+class Main {
+① public static void main(String[] args) {
+    // printDataメソッドを呼び出してください
+  ② printData();
+  }
+  
+  // printDataメソッドを定義してください
+  public static void printData(){
+  ③ System.out.println("私の名前はKate Jonesです");
+  }
+}
+①mainメソッドが呼ばれる
+②mainメソッドの中で、printDataメソッドが呼ばれる
+③helloメソッドの中で、
+ System.out.println("私の名前はKate Jonesです")
+ が実行される
