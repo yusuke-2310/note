@@ -48,3 +48,21 @@
     
   }
 }
+
+
+  // 複数の引数を扱うには？
+class Main {
+  public static void main(String[] args) {
+    // それぞれ年齢に関する引数を追加してください
+    printData("Kate Jones",27);                     // ←文字列、整数の順番にした場合
+    printData("John Christopher Smith",65);         // ←こちらも同じく
+  }
+
+  // 年齢に関する引数を受け取れるようにしてください
+  public static void printData(String name, int age) {   // ←こちらの引数も仮引数と同じ順番にする必要がある
+    System.out.println("私の名前は" + name + "です");
+    // 「年齢は◯◯歳です」と出力してください
+    System.out.println("年齢は" + age + "歳です");
+    
+  }
+}
