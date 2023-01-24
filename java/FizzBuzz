@@ -1,0 +1,27 @@
+public class FizzBuzz {
+    public static void main(String[] args) {
+        // for文を使った 1から99の繰り返し処理
+        for(int i = 1; i < 99;i++) {
+
+            // もしiが3で割れて かつ iが5で割れる場合
+            if((i % 3 == 0)&&(i % 5 == 0)) {
+                // 上記がtreuの場合、下記が出力される
+                System.out.println("FizzBuzz");
+
+            // もし3で割れる場合
+            }else if(i % 3 == 0) {
+                // 上記がtreuの場合、下記が出力される
+                System.out.println("Buzz");
+
+            // もし5で割れる場合
+            }else if(i % 5 == 0) {
+                // 上記がtreuの場合、下記が出力される
+                System.out.println("Fizz");
+                
+            // それ以外の場合
+            }else {
+                System.out.println(i);
+            }
+        }
+    }
+}
